@@ -24,7 +24,9 @@
         	<!-- paths to exclude from all sonar analysis -->
         </sonar.exclusions>
         <sonar.coverage.exclusions>
-        	<!-- paths to files to exclude only from coverage analysis -->
+        	src/main/java/edu/northeastern/cs4500/Cs4500Spring2018Team26Application.java,
+        	src/main/java/edu/northeastern/cs4500/models/*,
+        	src/main/java/edu/northeastern/cs4500/ServletInitializer.java
         </sonar.coverage.exclusions>
         <sonar.verbose>true</sonar.verbose>
         <sonar.showProfiling>true</sonar.showProfiling>
